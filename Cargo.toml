@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2018"
 
 [lib]
+name = "codex"
 crate-type = ["cdylib"]
 
 [dependencies]
@@ -11,3 +12,6 @@ solana-program = "1.18.25"
 spl-token = { version = "3.5.0", features = ["no-entrypoint"]}
 spl-associated-token-account = { version = "2", features = ["no-entrypoint"] }
 borsh = "0.9.1"
+solana-program-test = "1.18.25"
+solana-sdk = "1.18.25"
+tokio = "1.4.0"
